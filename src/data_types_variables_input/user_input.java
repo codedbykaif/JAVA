@@ -5,6 +5,9 @@ public class user_input{
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your name: ");
         String name = input.nextLine();
-        System.out.println("Good morning\n" + name);
+        System.out.println("Good morning  " + name);
+        System.out.println(name + "\nAlso tell me your age: ");
+        int age = input.nextInt();
+        System.out.println("Your age is: " + age);
     }
 }
