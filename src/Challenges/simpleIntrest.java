@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class simpleIntrest {
     public static void main(String[] args) {
 //        simple intrest = (P * T * R)/ 100
-        System.out.println();
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to simple intrest calculator: ");
         System.out.println("Please enter your principle amount: ");
