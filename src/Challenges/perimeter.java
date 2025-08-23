@@ -10,7 +10,7 @@ public class perimeter {
         double c = input.nextDouble();
         double d = input.nextDouble();
         double perimeter = a + b + c + d;
-        System.out.println("Perimeter of rectangle is: " + perimeter );
+        System.out.println("Perimeter of rectangle is: " + perimeter +  "cm");
 
 
     }
