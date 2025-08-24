@@ -16,8 +16,9 @@ public class logical {
             System.out.println("you got 25% discount ");
 
 
-        }
 
+        }
+        System.out.println("Program is completed");
 
     }
 }
