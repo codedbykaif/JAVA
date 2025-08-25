@@ -10,7 +10,7 @@ public class bitwiseXor
         int first = input.nextInt();
         System.out.print("Enter second number: " );
         int second = input.nextInt();
-        int result = first & second;
+        int result = first ^ second;
         System.out.println("Result is: " + result);
 
     }
