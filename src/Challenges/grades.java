@@ -24,7 +24,6 @@ public class grades {
         }
         else if(percentage >= 60 && percentage < 74 ) {
             System.out.println("C" + "you got" + percentage + "%");
-
         }
         else if(percentage >= 30 && percentage < 59 ) {
             System.out.println("D" + "you got" + percentage + "%");
