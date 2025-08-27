@@ -9,7 +9,6 @@ public class multiplicationTable {
         int mul = input.nextInt();
         for(int i =1; i<=10; i++){
             System.out.println(mul + " x " + i + " = " + (mul * i));
-
         }
 
     }
