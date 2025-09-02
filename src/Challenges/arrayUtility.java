@@ -15,4 +15,12 @@ public class arrayUtility {
         return nums;
 
     }
+    public static void displayArray(int[] numArr){
+        int i = 0;
+        while(i < numArr.length){
+            System.out.print(numArr[i] + " ");
+            i++;
+        }
+        System.out.println();
+    }
 }
