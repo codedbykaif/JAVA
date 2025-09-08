@@ -10,10 +10,6 @@ public class Driver {
 //        myCar.addFuel(3);
 //        System.out.println(myCar.getCurrentFuelLevel());
         Car swift = new Car("Red");
-
-
-
-
 //        swift.addFuel(6);
        swift.start().drive();
         System.out.println(swift.color);
