@@ -16,6 +16,10 @@ public class Car {
         noOfSheets = 5;
     }
 
+    public Car() {
+
+    }
+
     public Car start(){
         if(currentFuelInLitres <= 0){
             System.out.println("Car is out of fuel, cannot start");
@@ -38,5 +42,11 @@ public class Car {
 
     public float getCurrentFuelLevel(){
         return currentFuelInLitres;
+    }
+
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+        System.out.println("I am in finalize");
     }
 }
