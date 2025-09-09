@@ -9,9 +9,18 @@ public class Recursion {
             long fact = factorialIterative(num);
             System.out.println("Factorial of your number is: " + fact);
 
-
-
     }
+
+    public static long factorial(int num){
+        System.out.println("Function called for: " + num);
+        if(num == 1){
+            return 1;
+        }
+        return num * factorial(num -1);
+    }
+
+
+
     public static long factorialIterative(int num){
             long result = 1;
             for(int i =1; i <= num; i++){
