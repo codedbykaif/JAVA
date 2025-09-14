@@ -1,4 +1,5 @@
 package Challenges;
+import java.sql.SQLOutput;
 import java.util.Scanner;
 public class occurancesArray {
     public static void main(String[] args) {
