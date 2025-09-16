@@ -12,12 +12,17 @@ public class Car {
     }
 
 
-    public Car() {
+    public Car(String car, String color, String model, double fuelLevel, long costOfPurchase) {
         this.car = car;
         this.color = color;
         this.model = model;
         this.fuelLevel = fuelLevel;
         this.costOfPurchase = costOfPurchase;
+    }
+
+
+
+
     }
 
     @Override
