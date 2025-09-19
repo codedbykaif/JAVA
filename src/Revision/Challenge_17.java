@@ -16,7 +16,7 @@ public class Challenge_17 {
             System.out.println("Number 2 is larges: " + num2);
         }
         else {
-            System.out.println("Number 3 is largest: " + num3-);
+            System.out.println("Number 3 is largest: " + num3);
         }
     }
 }
