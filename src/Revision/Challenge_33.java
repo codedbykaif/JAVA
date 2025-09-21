@@ -10,9 +10,7 @@ public class Challenge_33 {
             a = temp;
         }
         return a;
-
     }
-
     static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your first number: ");
@@ -21,9 +19,5 @@ public class Challenge_33 {
         int num2 = input.nextInt();
         int result = HCF(num1,num2);
         System.out.println("HCF of " + num1 + " and " + num2 + " is: " + result);
-
-
-
-
     }
 }
