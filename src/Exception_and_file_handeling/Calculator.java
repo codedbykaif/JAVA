@@ -12,6 +12,7 @@ public class Calculator {
             System.out.printf("Result is %f", result);
         } catch (ArithmeticException exception){
             System.out.printf("%s, Divide by zero, enter valid values", exception.getMessage());
+
         }
 
 
