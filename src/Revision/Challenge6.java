@@ -9,6 +9,7 @@ public class Challenge6 {
         System.out.print("Enter second number: ");
         int num2 = input.nextInt();
         System.out.println("the sum of two number is: " + (num1  + num2));
+        System.out.println("the program executed sucessffullu");
 
 
 
